@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import { AuthState, SignupData, User } from '../types/index.js';
+import { AuthState, SignupData, User } from '../types/index.ts';
 
 // Mock API calls - replace with real API endpoints
 const mockLogin = async (email: string, password: string): Promise<User> => {
